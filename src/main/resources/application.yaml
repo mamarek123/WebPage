@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: mamarek123
+  devtools:
+    restart:
+          log-condition-evaluation-delta: true
+  profiles:
+    active:
+      - dev
